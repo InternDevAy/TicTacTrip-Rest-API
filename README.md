@@ -1,0 +1,3 @@
+# TictacApi
+API REST justify text with Node js
+To be able to test this code you must have postman and an Sql database named tictactrip after you must create a table named user with two fields id and email and then insert a user. Do not forget to install the js node environment.Then go to postman and type the URL localhost:3000/api/token then press params and add email as key and type the value of the email you inserted in the database : Example "foo@bar.com" you will have as response the token that will allow you to justify the text.open a new window type the URL localhost:3000/api/justify go to Headers and add authorization as key and insert the token;Then go to body then Raw and insert your text.
